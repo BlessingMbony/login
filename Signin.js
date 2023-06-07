@@ -17,7 +17,7 @@ const validatorEmail = function(){
            } 
            else {
             document.getElementById("cautionemail").style.display = "block"; 
-            document.getElementById('emailid').style.borderColor='red';
+            document.getElementById('emailid').style.borderColor='blue';
            }
     }
 
