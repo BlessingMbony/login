@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Signin.css">
+    <title>SIGN IN PAGE</title>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="head" id="center">
+        <div class="top">
+            <img src="leafboard logo.png" alt="leaf board logo">
+            <span class="title"> Leafboard</span>
+        </div>
+        <span>Work without limits</span>
+    </div>
+
+    <div class="mid">
+        <div class="label">
+            <label for="email"> Your email address</label>
+        </div>
+        <input  value="" type="email" placeholder="name@gmail.com" class="inputround" id="emailid" oninput="validatorEmail()">
+        <div class="cautionclass" id="cautionemail" >*Please enter a right email*</div>
+
+        <div class="label">
+            <label for="password"> Choose a password</label>
+        </div>
+        <div class="passwordinput" >
+            <input type="password" placeholder="min 8 characters" class="inputround" id="passwordid" oninput="validatorPassword()">
+            <img src="visibility_off.png" alt="password visibility">
+        </div>
+        <div class="cautionclass" id="cautionpassword">*Please enter a right password*</div>
+
+        <div>
+            <button class="continue-button" id="round" id="center">
+                <span class="button-content continue-button-content">
+                    <span class="button-text continuebutton" id="cont" onClick="submit()">Continue</span>
+                    <img src="chevron_right.png" class="chevron-right" alt="Chevron right">
+                </span>
+            </button>
+        </div>
+
+        <div class="flex" id="center">
+            <hr class="line"><span> Or </span><hr>
+        </div>
+        
+        <div>
+            <button class="Google-button link-button" id="round" id="center">
+                <span class="button-content link-buttons-content">
+                    <img src="google-logo.jpeg" alt="google logo" id="logo">
+                    <span class="button-text">Sign up with Google</span>
+                </span>
+            </button>
+        </div>
+
+
+        <div>
+            <button class="Apple-button link-button" id="round" id="center">
+                <span class="button-content link-buttons-content">
+                    <img src="apple-logo.jpeg" alt="apple logo" id="logo">
+                    <span class="button-text">Sign up with Apple</span>
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+   <script src="Signin.js"> </script> 
+</body>
+</html>

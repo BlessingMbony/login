@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    font-size: medium;
+    color:  hsl(221.25deg 48.48% 12.94%);
+}
+
+.container {
+    background-color: white;
+}
+
+div.blue-top {
+    height: 380px;
+    width: 100%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    background-color: hsl(221.25deg 48.48% 12.94%);
+}
+div.innerlogo img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin-top: 320px;
+    margin-left: 120px;
+    color: rgb(219, 216, 216);
+ 
+}
+
+.mid {
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.normfont {
+    font-size: 20px;
+}
+
+.buttom {
+    text-align: center;
+    align-items: center;
+     margin-top: 100px;
+}
+
+button{
+    width: 250px;
+     height: 50px;
+     border-radius: 30px;
+     font-size: 18px;
+     padding: 10px;
+}
+.buttontext {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+.textalign {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#green {
+    background-color:hsl(90.82deg 99.1% 56.47%);
+    border: none;
+    cursor: pointer;
+}
+
+#green:hover {
+    background-color: hsl(90, 70%, 88%);
+}
+
+.textalign img {
+    height: 25px;
+    width: 25px;
+    background-color:hsl(90.82deg 99.1% 56.47%);
+    margin-left: auto;
+}
+
+.textalign img:hover {
+    background-color:   hsl(90, 70%, 88%);
+}
