@@ -6,7 +6,7 @@ const emailstyle = document.getElementById('emailid');
 const passwordstyle = document.getElementById('passwordid');
 const continuestyle = document.getElementById('round');
 
-const submit = function(){//post to server
+const submit = function(){ //post to server 
 }
 
 const validatorEmail = function(){

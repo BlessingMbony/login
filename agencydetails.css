@@ -1,0 +1,251 @@
+body {
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.agentregis {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.topheadings {
+    display: flex;
+}
+
+.headinput input {
+    margin-top: 10px;
+    height: 50px;
+    width: 354px;
+    text-indent: 85px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: rgb(227, 227, 227);
+    border-width: 1px;
+    font-size: 16px;
+    color: rgb(91, 91, 91);
+    outline: none;
+    border-bottom-color: #428755;
+    border-bottom-width: 3px;
+
+}
+
+.mid {
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+
+}
+
+.star {
+    color: red;
+}
+
+.midheading {
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.fieldset {
+    align-items: center;
+    justify-content: center;
+}
+
+.firstfieldset {
+    display: flex;
+    margin-top: 20px;
+}
+
+.secondfieldset {
+    display: flex;
+}
+
+.thirdfieldset {
+    display: flex;
+}
+
+.forthfieldset {
+    display: flex;
+}
+
+.firstfieldsetmarg {
+    margin-right:120px;
+}
+
+.inputclass {
+    margin-top: 10px;
+    margin-bottom:10px;
+    height:40px;
+    width:330px;
+    text-indent: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(227, 227, 227);
+    border-width: 1px;
+    font-size: 15px;
+    color: rgb(91, 91, 91);
+    outline-color: green;
+}
+.shortinputclass {
+    margin-top: 10px;
+    margin-bottom:10px;
+    height:40px;
+    width:150px;
+    text-indent: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(227, 227, 227);
+    border-width: 1px;
+    font-size: 15px;
+    color: rgb(91, 91, 91);
+    outline-color: green;
+}
+
+label {
+    color: rgb(122, 122, 122);
+}
+
+.set1 {
+    color: rgb(122, 122, 122);  
+}
+
+.set2 {
+    color: rgb(122, 122, 122);  
+}
+
+
+.city {
+    margin-right: 20px;
+}
+
+.text1 {
+    margin-top: 10px;
+}
+
+.roundsl {
+    background-color: rgb(100, 167, 109) !important;
+    left: 50px !important;
+    position: relative;
+    top: 50px;
+}
+
+.roundselector {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.innerselector {
+    height: 11px;
+    width: 11px;
+    background-color: #428755;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: -17px;
+    display: inline-block;
+}
+
+.bluesquare {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom:10px;
+    height:45px;
+    width:338px;
+    text-indent: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(239, 247, 250);
+}
+
+.bluesquare input {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.star {
+    display: none;
+}
+
+.star1 {
+    color: red;
+}
+
+.firstchoice {
+    margin-top: 15px;
+}
+
+.secondchoice {
+    margin-top: 15px;
+}
+
+.choosefile {
+    height:30px;
+    width:100px;
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 15px;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: rgb(233, 233, 233);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(122, 122, 122); 
+
+}
+
+.margin {
+    margin-top: 15px;
+    font-size: 13px;
+    color: rgb(122, 122, 122);  
+}
+
+.text1 {
+    margin-top: 22px;
+    color: rgb(122, 122, 122);  
+    font-size: 13px;
+}
+
+.buttons {
+    margin-top: 110px;
+    margin-left: 910px;
+    margin-bottom: 10px;
+}
+
+.bigbutton1 {
+    border-radius: 5px;
+    height: 60px;
+    width: 150px;
+    border:none;
+    margin-right: 20px;
+    color: white;
+    background-color: rgb(179, 178, 178);
+    font-size: 18px;
+}
+
+.bigbutton2 {
+    border-radius: 5px;
+    height: 60px;
+    width: 250px;
+    border:none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(122, 199, 122);
+}
+
+.text2 {
+    display: none;
+    position: absolute;
+ }

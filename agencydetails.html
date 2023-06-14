@@ -8,20 +8,158 @@
     <title>Agency Details</title>
 </head>
 <body>
+
+    <!-- open with desktop screen-->
     <div class="container"> 
         <div class="top"> 
-            <div class="agentregis">Agent Registration</div>
+            <div class="agentregis"> Agent Registration </div>
             <div class="topheadings">
-                <div class="personaldetails">
-                    <input type="text" content="Personal details">\
-                    <div></div>
+                <div class="personaldetails headinput">
+                    <span class="roundselector roundsl"></span>
+                    <input type="text" value="Personal details">
+                   
                 </div>
-                <div class="agencydetails">
-                    <input type="text" content="Agency details">\
-                    <div></div>
+                <div class="agencydetails headinput">
+                    <span class="roundselector roundsl"></span>
+                    <input type="text" value="Agency details">
+            
+                </div>
+                <div class="contactdetails headinput">
+                    <span class="roundselector roundsl"></span>
+                    <input type="text" value="Contact Personal details">
+                   
+                </div>
+                <div class="workorder headinput">
+                    <span class="roundselector roundsl"></span>
+                    <input type="text" value="Work Order Scope">
+                   
                 </div>
             </div>
         </div>
+        
+        <div class="mid">
+                <div class="midheading">Profile Information</div>
+                <div class="fieldset">
+
+                    <div class="firstfieldset">
+                        <div class="agencyname firstfieldsetmarg">
+                            <label for="name">Agency Name<span class="star1" id="star1" >*</span></label>
+                            <div>
+                                <input type="text" class="inputclass" id="onPress" oninput="stardisappear()" oninput="onlyLetter()">
+                            </div>
+                        </div>
+                        <div class="agencytype firstfieldsetmarg">
+                            <label for="name">Agency Type<span class="star">*</span></label>
+                            <div>
+                                <select name="" id="" class="inputclass" required>
+                                    <option value=""></option>
+                                    <option value="Agent">Agent</option>
+                                    <option value="Agents1">Agents1</option>
+                                    <option value="Agents2">Agents2</option>
+                                    <option value="Agents3">Agents3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="password">
+                            <label for="password">Password<span class="star">*</span></label>
+                            <div>
+                                <input type="password" class="inputclass">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="secondfieldset">
+                        <div class="address firstfieldsetmarg">
+                            <label for="name">Address<span class="star">*</span></label>
+                            <div>
+                                <input type="text" class="inputclass">
+                            </div>
+                        </div>
+                        <div class="city">
+                            <label for="name">City<span class="star">*</span></label>
+                            <div>
+                                <input type="text" class="shortinputclass">
+                            </div>
+                        </div>
+                        <div class="state firstfieldsetmarg">
+                            <label for="name">State<span class="star">*</span></label>
+                            <div>
+                                <input type="text" class="shortinputclass">
+                            </div>
+                        </div>
+                        <div class="telnum">
+                            <label for="name">Telephone Number<span class="star">*</span></label>
+                            <div>
+                                <input type="number" class="inputclass">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thirdfieldset">
+                        <div class="tollfree firstfieldsetmarg">
+                            <label for="name">Toll- Free Number<span class="star">*</span></label>
+                            <div>
+                                <input type="number" class="inputclass">
+                            </div>
+                        </div>
+                        <div class="emailid firstfieldsetmarg">
+                            <label for="email" >Email ID<span class="star" id="stars">*</span></label>
+                            <div>
+                                <input type="email" class="inputclass" id="email" onKeyPress="email1()">
+                            </div>
+                        </div>
+                        <div class="website">
+                            <label for="name">Website<span class="star">*</span></label>
+                            <div>
+                                <input type="text" class="inputclass" required >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forthfieldset">
+                        <div class="companydate firstfieldsetmarg">
+                            <label for="date">Company Date<span class="star">*</span></label>
+                            <div>
+                                <input type="date" class="inputclass">
+                            </div>
+                        </div>
+                        <div class="set1 firstfieldsetmarg">
+                            <div>Office Space<span class="star">*</span></div>
+                            <div class="bluesquare">
+                                <div class="firstchoice">
+                                    <span class="roundselector" onClick="greenPress()">
+                                        <span class="innerselector" id="innerselect" ></span>
+                                    </span>
+                                    <span>Owned</span>
+                                </div>
+                                <div class="secondchoice">
+                                    <span class="roundselector" onClick="greenClick()">
+                                        <span class="innerselector" id="innerselector1"></span>
+                                    </span>
+                                    <span>Rental</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="set2">
+                            <div>Company Logo<span class="star">*</span></div>
+                            <div class="bluesquare">
+                                <input type="file">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text1">In order to process your registration, we ask to provide the following information. </div>
+                    <div class=" text1 text2" id="requiredtext">Please note that all fields marked with an asterisk (*) are required.</div>
+
+                </div>
+        </div>
+        <div class="buttons">
+            <button class="bigbutton1">CANCEL</button>
+            <button class="bigbutton2">CONTINUE</button>
+        </div>
+
+    
     </div>
+
+    <script src="agencydetails.js"></script>
 </body>
 </html>
