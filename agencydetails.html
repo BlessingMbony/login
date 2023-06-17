@@ -105,7 +105,7 @@
                         <div class="emailid firstfieldsetmarg">
                             <label for="email" >Email ID<span class="star" id="stars">*</span></label>
                             <div>
-                                <input type="email" class="inputclass" id="email" onKeyPress="email1()">
+                                <input type="email" class="inputclass" id="email" oninput="email1()">
                             </div>
                         </div>
                         <div class="website">
@@ -151,7 +151,13 @@
                     <div class=" text1 text2" id="requiredtext">Please note that all fields marked with an asterisk (*) are required.</div>
 
                 </div>
+                <!--DO TO-DO LIST -->
+
+                <input type="text" id="addinput">
+                <button class="addbutton" onclick="addToArray()" id="addbtnid">ADD</button>
+                <div class="showlist" id="showtodolist" ></div>
         </div>
+
         <div class="buttons">
             <button class="bigbutton1">CANCEL</button>
             <button class="bigbutton2">CONTINUE</button>
